@@ -1,0 +1,9 @@
+﻿# ignore virtual env
+venv/
+# ignore heavy binaries
+*.pyd
+*.dll
+*.lib
+*.h5
+*.gif
+*.map
