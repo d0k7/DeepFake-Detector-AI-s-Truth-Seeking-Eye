@@ -10,19 +10,13 @@ The primary goal of this project is to develop a deep learning model capable of 
 ----
 
 
-
-
 *Note: You will need OpenAI API keys to get access. Read more [how to get Openai API](https://www.windowscentral.com/software-apps/how-to-get-an-openai-api-key) 
 
 
 ----
-Watch the project presentation video below to get more information:
-[![project intro video](pic/video.png)](https://youtu.be/JuHQ8IRsfYc)
-
-----
 
 ### Project Report 
-[project Report](https://github.com/nogibjj/Detecting-AI-Generated-Fake-Images/blob/main/final_report/IDS705%20Final%20Report.pdf)
+[project Report](t.pdf)
 
 
 ---- 
