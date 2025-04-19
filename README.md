@@ -1,19 +1,17 @@
 # Detecting AI-Generated Fake Images
-This project generates AI images using the DALL-E2 API from OpenAI and use the generate picture to build a AI-Generated Image detector. 
+The primary goal of this project is to develop a deep learning model capable of distinguishing between AI-generated images and real human face image.
 
 
-#### **Duke University (MIDS) - Spring 2023**
 
-#### **Team member**: [Pooja](https://github.com/poojakabber7), [Scott](https://github.com/ScottLL), [Emma](https://github.com/Emmawang00), [Song](https://github.com/songyoungoh)
+#### **CSVTU (UTD) Bhilai, C.G. India 2025**
+
+#### **Team member**: [Vedika Goyal](https://github.com/vedika1509), [Dheeraj Mishra](https://github.com/d0k7), [Saquib Hussain](https://github.com/Emmawang00)
 
 ----
 
 
 
 
-
-Try the final webapp 🤖🤖🤖 [AI Human face generator & dectector Webapp](https://fake-image-generator-detector.streamlit.app/)
-![webapp](pic/streamlit-app-2023-04-20-00-04-13.gif)
 *Note: You will need OpenAI API keys to get access. Read more [how to get Openai API](https://www.windowscentral.com/software-apps/how-to-get-an-openai-api-key) 
 
 
