@@ -38,13 +38,6 @@ We have witnessed significant advancements in image-generation AI models in rece
 ### pipeline 
 ![pipeline](Images/Picture1.png)
 
-### Methodology 
-We aim to develop a neural network model for detecting fake AI-generated images, drawing inspiration from previous works by Sabithaa et al. (2020), Zhang et al. (2020), and He et al. (2016). To fine-tune the pre-trained ResNet model, we will use the FFHQ dataset, which Sabithaa et al. (2020) also used as an evaluation dataset. Additionally, we will explore the performance of MobileNetV2, a lightweight version of ResNet50, to understand its effectiveness in comparison to ResNet50. Our goal is to achieve high accuracy while gaining insights into the factors influencing detection performance through model visualization.
-
-
-### DallE-2 image generator
-the code is in AI_generate folder, contains three different way to generate the AI image from DallE-2, local-local, S3-S3, and local-google. 
-
 ### Work Flow
 
 1. Data Collection
@@ -70,6 +63,14 @@ the code is in AI_generate folder, contains three different way to generate the 
 3. Deployment
 
    Deploy the model and across the web application through streamlit.
+
+### Methodology 
+We aim to develop a neural network model for detecting fake AI-generated images, drawing inspiration from previous works by Sabithaa et al. (2020), Zhang et al. (2020), and He et al. (2016). To fine-tune the pre-trained ResNet model, we will use the FFHQ dataset, which Sabithaa et al. (2020) also used as an evaluation dataset. Additionally, we will explore the performance of MobileNetV2, a lightweight version of ResNet50, to understand its effectiveness in comparison to ResNet50. Our goal is to achieve high accuracy while gaining insights into the factors influencing detection performance through model visualization.
+
+
+### DallE-2 image generator
+the code is in AI_generate folder, contains three different way to generate the AI image from DallE-2, local-local, S3-S3, and local-google. 
+
 
 ### Model Architecture
 
