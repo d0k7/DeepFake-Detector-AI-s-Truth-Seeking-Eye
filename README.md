@@ -64,8 +64,8 @@ the code is in AI_generate folder, contains three different way to generate the 
 
 2. Model Training
 
-   ResNet50 -> Trained on google colab
-   MobileNetV2 -> Trained using AWS S3 and GitHub codespace
+   - ResNet50 -> Trained on google colab
+   - MobileNetV2 -> Trained using AWS S3 and GitHub codespace
 
 3. Deployment
 
