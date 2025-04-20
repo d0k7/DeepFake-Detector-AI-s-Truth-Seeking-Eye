@@ -45,11 +45,43 @@ We aim to develop a neural network model for detecting fake AI-generated images,
 ### DallE-2 image generator
 the code is in AI_generate folder, contains three different way to generate the AI image from DallE-2, local-local, S3-S3, and local-google. 
 
+### Work Flow
+
+1. Data Collection
+
+   Real Images
+   - Download from Flickr-Faces (png images)
+   - HQ(V7) Dataset
+   - Total 70000 real images
+   - store in amazon s3
+  
+   Fake Images
+   - Generate using DallE-2
+   - 21000 AI generated images
+   - Store in amazon s3
+  
+   Total images (21000 from real and 21000 from fake) are classify based on the glasses, facial expression, race, and gender.
+
+2. Model Training
+
+   ResNet50 -> Trained on google colab
+   MobileNetV2 -> Trained using AWS S3 and GitHub codespace
+
+3. Deployment
+
+   Deploy the model and across the web application through streamlit.
+
 ### Model Architecture
 
 * MobileNetV2
 
 ![MobileNetV2](Images/Picture6.jpg)
+
+Why MobileNetV2 ?
+- Because ResNet and VGG are computationally expensive, making them unsuitable for mobile devices.
+- Depthwise separable convolutions.
+- Inverted residual blocks (17).
+- Linear bottlenecks.
 
 * ResNet50
 ![ResNet50](Images/Picture5.jpg)
